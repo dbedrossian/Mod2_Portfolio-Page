@@ -1,0 +1,166 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #0d2414;
+    margin: 0;
+}
+
+.header h1 {
+    display: inline-block;
+    width: fit-content;
+    background-color: aquamarine;
+    padding: 10px;
+    padding-left: 50px;
+    margin-top: 25px;
+}
+
+.header nav {
+    display: inline-block;
+    color: white;
+    background-color: #0d2414;
+    padding-left: 15%;
+}
+
+.header nav ul {
+    list-style-type: none;
+    background-color: #0d2414;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background-color: #0d2414;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+}
+
+
+.header nav ul li:hover {
+    background-color: aquamarine;
+    color: #0d2414;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.img-header {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/IMG_0473-copy-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 0;
+}
+
+.profile-pic {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 2%;
+    background-image: url(../images/IMG_1812-copy-scaled.JPG);
+    background-size: 100%;
+}
+
+.img-header h3 {
+    background-color: aquamarine;
+    float: right;
+    margin-right: 10%;
+    margin-top: 200px;
+    font-size: 200%;
+}
+
+.section {
+    display: flex;
+    padding-left: 35px;
+}
+
+.section h2 {
+    size: 50px;
+    text-align: right;
+    padding-right: 5px;
+    border-right: solid;
+    border-color: #0d2414;
+    padding-left: 5%;
+}
+
+.section p {
+    size: 12px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#section-1 {
+    padding-left: 62px;
+}
+
+#section-2 {
+    padding-left: 71px;
+}
+
+#section-3 {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.boxes figure {
+    height: 100px;
+    width: 300px;
+    padding: 0px;
+    margin: 5px;
+    align-items: flex-end;
+}
+
+#caption {
+    width: fit-content;
+    background-color: aquamarine;
+    align-items: flex-end;
+}
+
+#one {
+    background-image: url(../images/IMG_1959-copy-scaled.JPG);
+    height: 250px;
+    width: 100%;
+    flex-grow: 25;
+}
+
+#two {
+    background-image: url(../images/IMG_1960-copy-scaled.JPG);
+}
+
+#three {
+    background-image: url(../images/IMG_1961-copy-scaled.JPG);
+}
+
+#four {
+    background-image: url(../images/IMG_1964-copy-scaled.JPG);
+}
+
+#five {
+    background-image: url(../images/IMG_1967-copy-scaled.JPG);
+}
+
+.section ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+h2 {
+    padding-left: 150px;
+}
+
+.boxes *:hover {
+    opacity: 50%;
+    transition-duration: 1s;
+}
