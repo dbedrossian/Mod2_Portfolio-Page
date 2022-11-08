@@ -113,6 +113,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+    /* width: 33%; */
 }
 
 .boxes figure {
@@ -137,37 +138,42 @@
     width: 100%;
     flex-grow: 25;
     bottom: 2px;
+    outline: 25px;
+    outline-color: aquamarine;
 }
 
 #two {
     background-image: url(../images/IMG_1960-copy-scaled.JPG);
+    flex-grow: 1;
 }
 
 #three {
     background-image: url(../images/IMG_1961-copy-scaled.JPG);
+    flex-grow: 1;
+    /* width: 33%; */
 }
 
 #four {
     background-image: url(../images/IMG_1964-copy-scaled.JPG);
+    flex-grow: 1;
 }
 
 #five {
     background-image: url(../images/IMG_1967-copy-scaled.JPG);
+    flex-grow: 1;
 }
 
 .section ul li {
     display: inline-block;
-    padding: 25px;
+    text-decoration: underline;
+    text-decoration-color: #0d2414;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 7px;
+    padding: 20px;
 }
 
 h2 {
     padding-left: 150px;
-}
-
-.section-3 ul li {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 7px;
 }
 
 .boxes *:hover {
