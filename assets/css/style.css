@@ -192,6 +192,10 @@ p {
     flex-grow: 1;
 }
 
+.section ul {
+    padding: 0;
+}
+
 .section ul li {
     display: inline-block;
     text-decoration: underline;
@@ -199,6 +203,10 @@ p {
     text-decoration-thickness: 4px;
     text-underline-offset: 7px;
     padding: 20px;
+}
+
+.section ul li a {
+    flex-shrink: 1;
 }
 
 h2 {
