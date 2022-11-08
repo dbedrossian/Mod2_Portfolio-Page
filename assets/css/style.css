@@ -34,7 +34,6 @@ p {
 }
 
 .header nav {
-    /* display: inline-block; */
     color: white;
     background-color: #0d2414;
     float: right;
@@ -167,6 +166,13 @@ p {
     margin: 0;
 }
 
+img {
+    border: 5px solid aquamarine;
+    max-height: 200px;
+    width: 100%;
+    margin: 12px;
+}
+
 #caption h3 {
     margin: 0, 0, 0, 15px;
 }
@@ -176,14 +182,15 @@ p {
     flex-grow: 25;
     position: relative;
     margin: 5px;
-    border: 2px aquamarine;
+    border: 1px aquamarine;
     height: 200px;
-    width: 100%; 
+    width: 95%; 
 }
 
 #two, #three, #four, #five {
     position: relative;
-    margin: 5px; 
+    margin: 5px;
+    width: 300px; 
 }
 
 #two {
@@ -253,17 +260,30 @@ h2 {
     .section ul li {
         padding: 5px;
     }
+    #section-3 {
+        margin-left: ;
     }
   
-    @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {       
+        .header nav {
+            float: none;
+            margin: 0px;
+            padding-top: 0;
+            padding-bottom: 16px;
+        }
         .profile-pic {
             height: 150px;
             width: 150px;
+            margin-top: 45px;
         }
         .profile-pic h3 {
             margin-top: 100px;
             margin-right: 10px;
         }
+        .img-header h3 {
+            margin-right: 2%;
+        }
+
         #quote {
             font-size: 24px;
             margin-top: 125px;
@@ -285,3 +305,7 @@ h2 {
             padding-left: 0px;
         }
     }
+    @media screen and (max-width: 550px) {       
+        .profile-pic {
+            margin-top: 75px;
+            }
